@@ -1,7 +1,7 @@
 # Drake e-commerce React Native App
 
 ## Description
-	This is a basic e-commerce React Native App done with the use of react-navigation and redux, please any question don't hesitate to reach out
+	This is a basic showcase e-commerce React Native App done with the use of react-navigation and redux, please any question don't hesitate to reach out
 
 ## Installation
  0. A very important thing to have in my is to have the proper SDK installed depending your OS and your phone target platform (Android or iOS), I've been developing for Android in windows so I followed this guide: [Android SDK setup for React Native](https://reactnative.dev/docs/environment-setup#android-sdk)

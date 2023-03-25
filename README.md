@@ -1,4 +1,7 @@
 # Drake e-commerce React Native App
+<img src="https://raw.githubusercontent.com/thiZguy/rn-ecommerce/master/resources/home_ss.png" width="125">
+<img src="https://raw.githubusercontent.com/thiZguy/rn-ecommerce/master/resources/payment_ss.png" width="125">
+<img src="https://raw.githubusercontent.com/thiZguy/rn-ecommerce/master/resources/details_ss.png" width="125">
 
 ## Description
 	This is a basic showcase e-commerce React Native App done with the use of react-navigation and redux, please any question don't hesitate to reach out

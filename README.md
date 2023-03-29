@@ -5,14 +5,15 @@
 
 ## Description
 
-	This is a basic showcase e-commerce React Native App done with the use of react-navigation and redux, please any question don't hesitate to reach out
+```wrap
+This is a basic showcase e-commerce React Native App done with the use of react-navigation and redux, please any question don't hesitate to reach out
 
-	The UI works by displaying a list of products on the ProductsScreen, which are fetched from an API and stored in the Redux store using the SET_PRODUCTS action.
+The UI works by displaying a list of products on the ProductsScreen, which are fetched from an API and stored in the Redux store using the SET_PRODUCTS action.
 	
-	Each product has a name, image, price, id, amiiboSeries, and gameSeries. Clicking on a product takes the user to the ProductDetailsScreen, which displays more information about the product, including its quantity in the cart. The user can add or remove the product from the cart using the + and - buttons. The MiniCart component displays a list of products in the cart, including their name, price, and quantity. The user can proceed to the PaymentScreen to complete the purchase, which displays a message thanking the user for their buy and resets the navigation to the ProductsScreen. 
+Each product has a name, image, price, id, amiiboSeries, and gameSeries. Clicking on a product takes the user to the ProductDetailsScreen, which displays more information about the product, including its quantity in the cart. The user can add or remove the product from the cart using the + and - buttons. The MiniCart component displays a list of products in the cart, including their name, price, and quantity. The user can proceed to the PaymentScreen to complete the purchase, which displays a message thanking the user for their buy and resets the navigation to the ProductsScreen. 
 	
-	The state of the cart and products is managed using Redux. The metro.config.js file is used to configure the transformation options for the Metro bundler.
-
+The state of the cart and products is managed using Redux. The metro.config.js file is used to configure the transformation options for the Metro bundler.
+``` 
 ## Installation
  0. A very important thing to have in my is to have the proper SDK installed depending your OS and your phone target platform (Android or iOS), I've been developing for Android in windows so I followed this guide: [Android SDK setup for React Native](https://reactnative.dev/docs/environment-setup#android-sdk)
  for iOS the case would be: [iOS guide](https://reactnative.dev/docs/environment-setup?platform=ios&os=macos#installing-dependencies)

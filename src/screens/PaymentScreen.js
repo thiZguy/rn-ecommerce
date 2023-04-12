@@ -21,8 +21,7 @@ const PaymentScreen = ({ }) => {
   const handleCheckout = () => {
     setTimeout(() => {
       alert('Thanks for your buy!');
-      // TBD
-      // dispatch({type: RESET_INITIAL_STATE});
+      dispatch({type: RESET_INITIAL_STATE});
       navigation.reset({
         index: 0,
         routes: [{ name: 'Products' }],

@@ -28,6 +28,9 @@ const productsReducer = (state = initialState.products, action) => {
       ];
 		case SET_PRODUCTS: 
 			return action.payload
+    case RESET_INITIAL_STATE:
+      const productsNoQty = initialState.products.map(({ quantity, ...item }) => item);
+      return productsNoQty
     default:
       return state;
   }
@@ -59,12 +62,7 @@ const cartReducer = (state = initialState.cart, action) => {
       };
 
 		case RESET_INITIAL_STATE:
-			const productsNoQty = initialState.products.map(({ quantity, ...item }) => item);
-			return {
-				...state,
-				products: productsNoQty,
-			};
-
+			return initialState.cart;
     default:
       return state;
   }
